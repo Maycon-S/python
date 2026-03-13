@@ -14,3 +14,8 @@ print(f"media é: {media:.2f}") # 2 = sumeros da soma / f = Permite que o Python
 numero1 = input("digute a porra do numero") # input =  receber dados inseridos pelo usuário via teclado
 numero2 = int(numero1) # int = para representar e manipular números inteiros
 print(numero2*2)
+
+numero3 = int(input("digite outro numero seu"))
+numero4 = int(input("digite outro numero seu"))
+soma = numero3 + numero4
+print(f"a soma dos numeros e: {soma}")
