@@ -48,16 +48,6 @@ else: # else = é uma parte opcional de uma estrutura de controle de fluxo em Py
     print("vc e menor de idade") # print = é uma função integrada em Python que exibe informações na tela. Ela pode ser usada para mostrar texto, variáveis ou resultados de expressões. O conteúdo a ser exibido é colocado entre parênteses e pode ser formatado usando f-strings para incluir variáveis de forma mais legível.
   # O código acima é um exemplo de como usar a estrutura de controle de fluxo if-else para verificar se uma pessoa é maior ou menor de idade com base na variável "idade". Se a idade for maior ou igual a 18, o programa imprimirá "vc e maior de idade". Caso contrário, ele imprimirá "vc e menor de idade".
   
-
-
-sim ou não = input("vc gosta de python? (sim ou não)") # input = é uma função integrada em Python que permite ao programa receber dados do usuário por meio do teclado. O texto dentro dos parênteses é exibido como um prompt para o usuário, indicando o que ele deve digitar. O valor digitado pelo usuário é então armazenado na variável "sim ou não".
-if sim ou não == "sim": # if = é uma estrutura de controle de fluxo em Python que permite executar um bloco de código apenas se uma condição específica for verdadeira. A sintaxe básica do if é: if condição: bloco de código. O bloco de código dentro do if será executado somente se a condição for avaliada como verdadeira.
-    print("que bom que vc gosta de python") # print = é uma função integrada em Python que exibe informações na tela. Ela pode ser usada para mostrar texto, variáveis ou resultados de expressões. O conteúdo a ser exibido é colocado entre parênteses e pode ser formatado usando f-strings para incluir variáveis de forma mais legível.
-else: # else = é uma parte opcional de uma estrutura de controle de fluxo em Python que é executada quando a condição do if é avaliada como falsa. A sintaxe básica do else é: else: bloco de código. O bloco de código dentro do else será executado somente se a condição do if for falsa.
-    print("que pena que vc não gosta de python") # print = é uma função integrada em Python que exibe informações na tela. Ela pode ser usada para mostrar texto, variáveis ou resultados de expressões. O conteúdo a ser exibido é colocado entre parênteses e pode ser formatado usando f-strings para incluir variáveis de forma mais legível.
-# O código acima é um exemplo de como usar a estrutura de controle de fluxo if-else
-# para verificar se o usuário gosta de Python com base na entrada fornecida. Se o usuário digitar "sim", o programa imprimirá "que bom que vc gosta de python". Caso contrário, ele imprimirá "que pena que vc não gosta de python".
-
 # semana 3 a 5
 
 sim ou não = input("vc e um robo sim ou não?")
