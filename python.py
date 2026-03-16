@@ -60,6 +60,11 @@ else: # else = é uma parte opcional de uma estrutura de controle de fluxo em Py
 
 # semana 3 a 5
 
+sim ou não = input("vc e um robo sim ou não?")
+if sim ou não == "sim":
+    print("vc ta de brincadeira comigo?")
+else:
+    print("vc não e um robo")
 
 # () [] {} = são símbolos usados em Python para diferentes propósitos. Os parênteses () são usados para agrupar expressões, definir tuplas e chamar funções. Os colchetes [] são usados para definir listas, acessar elementos de listas e criar compreensões de listas. As chaves {} são usadas para definir dicionários, conjuntos e criar compreensões de dicionários. Cada um desses símbolos tem um papel específico na sintaxe do Python e é importante usá-los corretamente para evitar erros de sintaxe.
 # . = é um operador de acesso a atributos em Python. Ele é usado para acessar métodos, atributos ou propriedades de um objeto. Por exemplo, se você tiver um objeto chamado "objeto" e quiser acessar um método chamado "metodo", você usaria a sintaxe "objeto.metodo()". O ponto é essencial para indicar que você está acessando algo relacionado ao objeto específico.
