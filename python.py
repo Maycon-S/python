@@ -19,7 +19,7 @@ print(f"media é: {media:.2f}") # 2 = sumeros da soma / f = Permite que o Python
 
 
 
-numero1 = input("digute o numero") # input =  receber dados inseridos pelo usuário via teclado
+numero1 = input("digite o numero") # input =  receber dados inseridos pelo usuário via teclado
   numero2 = int(numero1) # int() = é uma função integrada em Python que converte um valor para um número inteiro. Ela pode ser usada para converter strings que representam números em inteiros, ou para converter outros tipos de dados em inteiros, se possível. Se a conversão não for possível, a função lançará um erro.
 print(numero2*2) # numero1 = a variável que armazena a entrada do usuário como uma string (texto)
 # O código acima é um exemplo de como usar a função input para receber um número do usuário, convertê-lo para um inteiro usando a função int e, em seguida, multiplicar esse número por 2 antes de exibir o resultado. O programa solicitará ao usuário que digite um número, realizará a conversão e exibirá o dobro desse número na tela.
@@ -55,6 +55,8 @@ if sim ou não == "sim":
     print("vc ta de brincadeira comigo?")
 else:
     print("vc não e um robo")
+
+
 
 # () [] {} = são símbolos usados em Python para diferentes propósitos. Os parênteses () são usados para agrupar expressões, definir tuplas e chamar funções. Os colchetes [] são usados para definir listas, acessar elementos de listas e criar compreensões de listas. As chaves {} são usadas para definir dicionários, conjuntos e criar compreensões de dicionários. Cada um desses símbolos tem um papel específico na sintaxe do Python e é importante usá-los corretamente para evitar erros de sintaxe.
 # . = é um operador de acesso a atributos em Python. Ele é usado para acessar métodos, atributos ou propriedades de um objeto. Por exemplo, se você tiver um objeto chamado "objeto" e quiser acessar um método chamado "metodo", você usaria a sintaxe "objeto.metodo()". O ponto é essencial para indicar que você está acessando algo relacionado ao objeto específico.
