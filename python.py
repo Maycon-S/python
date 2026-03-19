@@ -56,7 +56,49 @@ if sim ou não == "sim":
 else:
     print("vc não e um robo")
 
+nota = float(input('Qual é a sua nota: '))
 
+if 6 <= nota <= 10:
+    print("Aprovado")
+elif 0 <= nota < 6:
+    print("Reprovado")
+else:
+    print("Nota inválida :(")
+
+
+numero = int(input("Digite um número: "))
+
+if numero % 2 == 0: # O operador % é o operador de módulo em Python, que retorna o resto da divisão entre dois números. No caso do código, ele está sendo usado para verificar se o número digitado pelo usuário é par ou ímpar. Se o resultado da operação numero % 2 for igual a 0, significa que o número é par, caso contrário, é ímpar.
+    print(f"{numero} é par")
+else:
+    print(f"{numero} é ímpar")
+    
+
+def comparar_precos(): # def = é uma palavra-chave em Python usada para definir uma função. Ela é seguida pelo nome da função e parênteses, que podem conter parâmetros. O bloco de código dentro da função é indentado e será executado quando a função for chamada. As funções são usadas para organizar o código em blocos reutilizáveis, permitindo que você execute um conjunto de instruções várias vezes sem precisar reescrever o código. 
+    preco1 = float(input(f"Preço do produto1 na Loja A: R$ "))
+
+    preco2 = float(input(f"Preço do produto2 na Loja B: R$ "))
+
+    if preco1 < preco2:
+        print(f"\n A Loja A está mais barata: produto1 por R$ {preco1:.2f}")
+    elif preco2 < preco1: # elif = é uma estrutura de controle de fluxo em Python que permite verificar múltiplas condições sequencialmente. Ele é usado para testar uma condição adicional se a condição anterior for falsa. A sintaxe básica do elif é: elif condição: bloco de código. O bloco de código dentro do elif será executado somente se a condição do if e todas as condições anteriores forem avaliadas como falsas.
+        print(f"\n A Loja B está mais barata: produto2 por R$ {preco2:.2f}")
+    else:
+        print("\n🤝 Os preços são iguais!")
+
+comparar_precos()
+
+
+
+preco = float(input("Digite o preço do produto: R$ "))
+desconto = preco * 0.10  # Calcula 10% de desconto * O valor do desconto é obtido multiplicando o preço original por 0.10, que representa 10% em forma decimal.
+preco_final = preco - desconto
+
+print(f"O produto custa R${preco:.2f}, com 10% de desconto fica R${preco_final:.2f}")
+# O código acima é um exemplo de como calcular o preço final de um produto após aplicar um desconto de 10%. O programa solicita ao usuário que digite o preço do produto, calcula o valor do desconto multiplicando o preço por 0.10 (que representa 10%), subtrai o desconto do preço original para obter o preço final e, em seguida, exibe o resultado formatado usando f-strings para mostrar os valores com duas casas decimais.
+
+
+# semana 6
 
 # () [] {} = são símbolos usados em Python para diferentes propósitos. Os parênteses () são usados para agrupar expressões, definir tuplas e chamar funções. Os colchetes [] são usados para definir listas, acessar elementos de listas e criar compreensões de listas. As chaves {} são usadas para definir dicionários, conjuntos e criar compreensões de dicionários. Cada um desses símbolos tem um papel específico na sintaxe do Python e é importante usá-los corretamente para evitar erros de sintaxe.
 # . = é um operador de acesso a atributos em Python. Ele é usado para acessar métodos, atributos ou propriedades de um objeto. Por exemplo, se você tiver um objeto chamado "objeto" e quiser acessar um método chamado "metodo", você usaria a sintaxe "objeto.metodo()". O ponto é essencial para indicar que você está acessando algo relacionado ao objeto específico.
