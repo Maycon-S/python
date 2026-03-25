@@ -100,6 +100,13 @@ print(f"O produto custa R${preco:.2f}, com 10% de desconto fica R${preco_final:.
 
 # semana 6
 
+ if idade >= 18: # if = é uma estrutura de controle de fluxo em Python que permite executar um bloco de código apenas se uma condição específica for verdadeira. A sintaxe básica do if é: if condição: bloco de código. O bloco de código dentro do if será executado somente se a condição for avaliada como verdadeira.
+    print("vc e maior de idade") # print = é uma função integrada em Python que exibe informações na tela. Ela pode ser usada para mostrar texto, variáveis ou resultados de expressões. O conteúdo a ser exibido é colocado entre parênteses e pode ser formatado usando f-strings para incluir variáveis de forma mais legível.
+    elif idade < 18: # elif = é uma estrutura de controle de fluxo em Python que permite verificar múltiplas condições sequencialmente. Ele é usado para testar uma condição adicional se a condição anterior for falsa. A sintaxe básica do elif é: elif condição: bloco de código. O bloco de código dentro do elif será executado somente se a condição do if e todas as condições anteriores forem avaliadas como falsas.
+    print("vc e menor de idade") # print = é uma função integrada em Python que
+    else: # else = é uma parte opcional de uma estrutura de controle de fluxo em Python que é executada quando a condição do if é avaliada como falsa. A sintaxe básica do else é: else: bloco de código. O bloco de código dentro do else será executado somente se a condição do if for falsa.
+    print("") # print = é uma função integrada em Python que ex
+
 # () [] {} = são símbolos usados em Python para diferentes propósitos. Os parênteses () são usados para agrupar expressões, definir tuplas e chamar funções. Os colchetes [] são usados para definir listas, acessar elementos de listas e criar compreensões de listas. As chaves {} são usadas para definir dicionários, conjuntos e criar compreensões de dicionários. Cada um desses símbolos tem um papel específico na sintaxe do Python e é importante usá-los corretamente para evitar erros de sintaxe.
 # . = é um operador de acesso a atributos em Python. Ele é usado para acessar métodos, atributos ou propriedades de um objeto. Por exemplo, se você tiver um objeto chamado "objeto" e quiser acessar um método chamado "metodo", você usaria a sintaxe "objeto.metodo()". O ponto é essencial para indicar que você está acessando algo relacionado ao objeto específico.
 # : = é um símbolo usado em Python para indicar o início de um bloco de código.
