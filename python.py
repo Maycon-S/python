@@ -107,6 +107,8 @@ print(f"O produto custa R${preco:.2f}, com 10% de desconto fica R${preco_final:.
     else: # else = é uma parte opcional de uma estrutura de controle de fluxo em Python que é executada quando a condição do if é avaliada como falsa. A sintaxe básica do else é: else: bloco de código. O bloco de código dentro do else será executado somente se a condição do if for falsa.
     print("") # print = é uma função integrada em Python que ex
 
+# semana 7
+
 # () [] {} = são símbolos usados em Python para diferentes propósitos. Os parênteses () são usados para agrupar expressões, definir tuplas e chamar funções. Os colchetes [] são usados para definir listas, acessar elementos de listas e criar compreensões de listas. As chaves {} são usadas para definir dicionários, conjuntos e criar compreensões de dicionários. Cada um desses símbolos tem um papel específico na sintaxe do Python e é importante usá-los corretamente para evitar erros de sintaxe.
 # . = é um operador de acesso a atributos em Python. Ele é usado para acessar métodos, atributos ou propriedades de um objeto. Por exemplo, se você tiver um objeto chamado "objeto" e quiser acessar um método chamado "metodo", você usaria a sintaxe "objeto.metodo()". O ponto é essencial para indicar que você está acessando algo relacionado ao objeto específico.
 # : = é um símbolo usado em Python para indicar o início de um bloco de código.
