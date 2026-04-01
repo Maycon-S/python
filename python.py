@@ -109,6 +109,12 @@ print(f"O produto custa R${preco:.2f}, com 10% de desconto fica R${preco_final:.
 
 # semana 7
 
+if senha == senha_confirmacao: # if = é uma estrutura de controle de fluxo em Python que permite executar um bloco de código apenas se uma condição específica for verdadeira. A sintaxe básica do if é: if condição: bloco de código. O bloco de código dentro do if será executado somente se a condição for avaliada como verdadeira.
+ print("senha confirmada com sucesso") # if = é uma estrutura de controle de fluxo em Python que permite executar um bloco de código apenas se uma condição específica for verdadeira. A sintaxe básica do if é: if condição: bloco de código. O bloco de código dentro do if será executado somente se a condição for avaliada como verdadeira.
+## == é um operador de comparação em Python que verifica se dois valores são iguais. Ele retorna True se os valores forem iguais e False caso contrário. Por exemplo, se você quiser verificar se a variável "senha" é igual à variável "senha_confirmacao", você escreveria "senha == senha_confirmacao". O operador de igualdade é comumente usado em estruturas de controle de fluxo, como if statements, para tomar decisões com base na comparação de valores.
+# O código acima é um exemplo de como usar a estrutura de controle de fluxo if para verificar se a senha digitada pelo usuário é igual à senha de confirmação. Se as senhas forem iguais, o programa imprimirá "senha confirmada com sucesso". Caso contrário, ele não fará nada (ou você pode adicionar um else para lidar com o caso em que as senhas não correspondem).
+
+
 # () [] {} = são símbolos usados em Python para diferentes propósitos. Os parênteses () são usados para agrupar expressões, definir tuplas e chamar funções. Os colchetes [] são usados para definir listas, acessar elementos de listas e criar compreensões de listas. As chaves {} são usadas para definir dicionários, conjuntos e criar compreensões de dicionários. Cada um desses símbolos tem um papel específico na sintaxe do Python e é importante usá-los corretamente para evitar erros de sintaxe.
 # . = é um operador de acesso a atributos em Python. Ele é usado para acessar métodos, atributos ou propriedades de um objeto. Por exemplo, se você tiver um objeto chamado "objeto" e quiser acessar um método chamado "metodo", você usaria a sintaxe "objeto.metodo()". O ponto é essencial para indicar que você está acessando algo relacionado ao objeto específico.
 # : = é um símbolo usado em Python para indicar o início de um bloco de código.
