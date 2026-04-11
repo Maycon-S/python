@@ -122,3 +122,6 @@ if senha == senha_confirmacao: # if = é uma estrutura de controle de fluxo em P
 # = é um símbolo usado em Python para atribuir um valor a uma variável. Ele é usado para indicar que o valor à direita do símbolo deve ser armazenado na variável à esquerda. Por exemplo, se você quiser atribuir o valor 10 a uma variável chamada "x", você escreveria "x = 10". O símbolo de igual é fundamental para a atribuição de valores em Python e é amplamente utilizado em todo o código para criar e modificar variáveis.
 # == é um operador de comparação em Python que verifica se dois valores são iguais. Ele retorna True se os valores forem iguais e False caso contrário. Por exemplo, se você quiser verificar se a variável "a" é igual a 5, você escreveria "a == 5". O operador de igualdade é comumente usado em estruturas de controle de fluxo, como if statements, para tomar decisões com base na comparação de valores.
 
+# semanha 8
+
+# bloco de nota v1
