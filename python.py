@@ -133,3 +133,7 @@ for i in range(4): # for = é uma estrutura de controle de fluxo em Python
 media = sum(notas) / len(notas) # sum = de somar elementos / len  é um método integrado utilizado para retornar o número de itens
 print(f"A média das notas é: {media:.2f}") # 2 = sumeros da soma / f = Permite que o Python interprete o que está dentro das chave
 # O código acima é um exemplo de como calcular a média de uma lista de notas usando as funções sum e len. A função sum é usada para somar todos os elementos da lista "notas", enquanto a função len é usada para contar o número de elementos na lista. O resultado da média é formatado para exibir apenas duas casas decimais usando f-strings. O programa solicitará ao usuário que digite quatro notas, armazenará essas notas em uma lista, calculará a média e exibirá o resultado na tela.
+
+# bloco de nota v2
+
+?/
