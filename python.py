@@ -134,6 +134,8 @@ media = sum(notas) / len(notas) # sum = de somar elementos / len  é um método 
 print(f"A média das notas é: {media:.2f}") # 2 = sumeros da soma / f = Permite que o Python interprete o que está dentro das chave
 # O código acima é um exemplo de como calcular a média de uma lista de notas usando as funções sum e len. A função sum é usada para somar todos os elementos da lista "notas", enquanto a função len é usada para contar o número de elementos na lista. O resultado da média é formatado para exibir apenas duas casas decimais usando f-strings. O programa solicitará ao usuário que digite quatro notas, armazenará essas notas em uma lista, calculará a média e exibirá o resultado na tela.
 
+# semana 9
+
 # bloco de nota v2
 
 def calcular_media(): # def = é uma palavra-chave em Python usada para definir uma função. Ela é seguida pelo nome da função e parênteses, que podem conter parâmetros. O bloco de código dentro da função é indentado e será executado quando a função for chamada. As funções são usadas para organizar o código em blocos reutilizáveis, permitindo que você execute um conjunto de instruções várias vezes sem precisar reescrever o código.
@@ -143,3 +145,4 @@ def calcular_media(): # def = é uma palavra-chave em Python usada para definir 
         notas.append(nota) # append() = é um método de lista em Python que adiciona um elemento ao final da lista. Ele é usado para expandir a lista com novos itens. Por exemplo, se você tiver uma lista chamada "notas" e quiser adicionar uma nova nota a essa lista, você usaria "notas.append(nota)". O método append é útil para construir listas dinamicamente à medida que você recebe novos dados ou deseja adicionar elementos a uma lista existente.
     media = sum(notas) + len(notas) # sum = de somar elementos / len  é um método integrado utilizado para retornar o número de itens
     print(f"A média das notas é: {media:.2f}") # 2 = sumeros da soma / f = Permite que o Python interprete o que está dentro das chave
+
