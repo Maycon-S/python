@@ -136,4 +136,10 @@ print(f"A média das notas é: {media:.2f}") # 2 = sumeros da soma / f = Permite
 
 # bloco de nota v2
 
-?/
+def calcular_media(): # def = é uma palavra-chave em Python usada para definir uma função. Ela é seguida pelo nome da função e parênteses, que podem conter parâmetros. O bloco de código dentro da função é indentado e será executado quando a função for chamada. As funções são usadas para organizar o código em blocos reutilizáveis, permitindo que você execute um conjunto de instruções várias vezes sem precisar reescrever o código.
+    notas = [] # notas = um tipo de variavel
+    for i in range(4): # for = é uma estrutura de controle de fluxo em Python
+        nota = float(input(f"Digite a nota {i + 1}: ")) # input = é uma função integrada em Python que permite ao programa receber dados do usuário por meio do teclado. O texto dentro dos parênteses é exibido como um prompt para o usuário, indicando o que ele deve digitar. O valor digitado pelo usuário é então armazenado na variável "nota". / float() = é uma função integrada em Python que converte um valor para um número de ponto flutuante (decimal). Ela pode ser usada para converter strings que representam números em ponto flutuante, ou para converter outros tipos de dados em ponto flutuante, se possível. Se a conversão não for possível, a função lançará um erro.
+        notas.append(nota) # append() = é um método de lista em Python que adiciona um elemento ao final da lista. Ele é usado para expandir a lista com novos itens. Por exemplo, se você tiver uma lista chamada "notas" e quiser adicionar uma nova nota a essa lista, você usaria "notas.append(nota)". O método append é útil para construir listas dinamicamente à medida que você recebe novos dados ou deseja adicionar elementos a uma lista existente.
+    media = sum(notas) + len(notas) # sum = de somar elementos / len  é um método integrado utilizado para retornar o número de itens
+    print(f"A média das notas é: {media:.2f}") # 2 = sumeros da soma / f = Permite que o Python interprete o que está dentro das chave
